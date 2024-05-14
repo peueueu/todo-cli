@@ -1,0 +1,25 @@
+{
+  "name": "freecodecamp-cli-tool",
+  "version": "1.0.0",
+  "exports": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "todo": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^9.2.21",
+    "mongoose": "^8.3.4",
+    "nanoid": "^5.0.7",
+    "ora": "^8.0.1"
+  }
+}
